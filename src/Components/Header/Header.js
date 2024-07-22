@@ -48,15 +48,7 @@ const Header = () => {
                         Tops and Jeans
                       </a>
                     </li>
-                    <li>
-                      <a
-                        className="dropdown-item"
-                        href="blouse"
-                        style={{ color: "white" }}
-                      >
-                        Blouse
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         className="dropdown-item"

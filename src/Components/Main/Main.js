@@ -20,14 +20,12 @@ const Main = () => {
       return productData[0]; // Sarees
     } else if (currentPath === "/topsandjeans") {
       return productData[1]; // Tops and Jeans
-    } else if (currentPath === "/blouse") {
+    } 
+    else if (currentPath === "/western") {
       return productData[2]; // Blouse and lingerie wear
     }
-    else if (currentPath === "/western") {
-      return productData[3]; // Blouse and lingerie wear
-    }
     else if (currentPath === "/kurti") {
-      return productData[4]; // Blouse and lingerie wear
+      return productData[3]; // Blouse and lingerie wear
     } else {
       return null; // Handle other paths or invalid paths
     }
