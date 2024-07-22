@@ -20,10 +20,10 @@ const Footer = () => {
         </div>
         <div className="contactUS-icons-wrapper">
           <EmailIcon className="contactUS-icons" />{" "}
-          Yeshwanthsinha143@gmail.com
+          suvarnakeskar7387@gmail.com
         </div>
         <div className="contactUS-icons-wrapper">
-          <LocationOnIcon className="contactUS-icons" />Hyderabad, Telangana
+          <LocationOnIcon className="contactUS-icons" />Pune, Maharashtra
 
         </div>
         <div>
