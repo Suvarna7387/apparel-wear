@@ -1,0 +1,36 @@
+  .dropdown-item:hover {
+    background-color: #f8f9fa !important;
+    color: black !important;
+  }
+  .custom-dropdown {
+    background-color: black;
+  }  
+  .dropdown-apparel{
+    display: flex;
+    margin-right: 50%;
+  }
+  .logo-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: silver;
+    font-family: "Verdana", sans-serif; /* Or any other modern font */
+    font-size: 22px; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+.navbar_container-ChildWrapper{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .navbar_container-ChildWrapper{
+    flex-direction: column;
+  }
+  .dropdown-apparel{
+    margin-left: 0;
+  }
+  .logo-text {
+    width: 200px;
+  }
+}

@@ -1,0 +1,65 @@
+.contact-container {
+    background-color: black;
+    color: white;
+  }
+  
+  .contact-container h3 {
+    color: white;
+  }
+  
+  .contact-container div {
+    margin-bottom: 10px;
+  }
+  
+  .contact-container img {
+    width: 100px;
+  }
+  
+  .contactUStext-outer {
+    margin-top: 40px;
+  }
+  
+  .conatctus_services {
+    margin-top: 40px;
+  }
+  
+  .contactus-firstchild {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-around;
+  }
+  
+  .contactus-secondchild {
+    color: #ffffff;
+    font-family: "Rubik", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5.8px;
+  }
+  
+  .contact-us-techtorchlogo {
+    margin-top: 50px;
+  }
+  
+  .contactUS-icons-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .contactUS-icons {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .contactus-firstchild {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo-social-wrapper {
+      margin-top: 20px;
+    }
+  }
+  
